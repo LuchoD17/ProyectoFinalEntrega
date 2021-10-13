@@ -1,10 +1,10 @@
 [
     {"id": "c50", "title": "Album 10x15", "price": "750", "stock": 15, "img": "imagenes/album10x15.jpg", "category": "Albumes"},
     {"id": "c40", "title": "Album 13x18", "price": "950", "stock": 5, "img": "imagenes/album13x18.jpg", "category": "Albumes"},
-    {"id": "s10", "title": "Fotos 13x 18", "price": "120", "stock": 1000, "img": "imagenes/fotos13x18.jpg", "category": "Fotos"},
+    {"id": "s10", "title": "Fotos 13x18", "price": "120", "stock": 1000, "img": "imagenes/fotos13x18.jpg", "category": "Fotos"},
     {"id": "a40", "title": "Porta 13x18", "price": "1050", "stock": 100, "img": "imagenes/portaretrato13x18.jpg", "category": "Portaretratos"},
     {"id": "d70", "title": "Collage", "price": "250", "stock": 100, "img": "imagenes/collage.jpg", "category": "Fotos"},
     {"id": "e20", "title": "Camara", "price": "80000", "stock": 5, "img": "imagenes/camaracanon.jpg", "category": "Camaras"},
-    {"id": "s30", "title": "Polaroid x 10u", "price": "200", "stock": 5, "img": "imagenes/fotopolaroid.jpg", "category": "Fotos"},
+    {"id": "s30", "title": "Polaroid x10", "price": "200", "stock": 5, "img": "imagenes/fotopolaroid.jpg", "category": "Fotos"},
     {"id": "s20", "title": "Fotos 10x15", "price": "60", "stock": 1000, "img": "imagenes/fotos10x15.jpg", "category": "Fotos"}
 ]

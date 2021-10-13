@@ -45,7 +45,18 @@ function guardarCarrito() {
 }
 
 function eliminarTodo () {
-  
+  alert("Carrito vacio")
+  localStorage.removeItem("carrito")
+  location.reload()
+}
+
+function pagarTotal () {
+  let monto = 0
+  JSON.parse(localStorage.getItem("carrito")).forEach(obj =>{
+    monto += parseFloat(obj.price)
+  })
+  alert("Usted pago $ " + monto)
+  eliminarTodo()
 }
 
 /////////////////RENDER////////////////////////
@@ -96,8 +107,9 @@ modalCarrito.addEventListener('click', (e)=>{
     e.stopPropagation()
 })
 pagarCarrito.addEventListener('click', ()=>{
-  alert("Usted ya pago")
+  pagarTotal()
 })
 vaciarCarrito.addEventListener('click', ()=>{
-  
+  eliminarTodo()
+
 })
