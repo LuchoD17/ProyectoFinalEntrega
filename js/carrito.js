@@ -51,11 +51,8 @@ function eliminarTodo () {
 }
 
 function pagarTotal () {
-  let monto = 0
-  JSON.parse(localStorage.getItem("carrito")).forEach(obj =>{
-    monto += parseFloat(obj.price)
-  })
-  alert("Usted pago $ " + monto)
+  precioFinal = carrito.reduce((acc, producto) => acc += producto.price * producto.quantity, 0);
+  alert("Usted pago $ " + precioFinal)
   eliminarTodo()
 }
 
